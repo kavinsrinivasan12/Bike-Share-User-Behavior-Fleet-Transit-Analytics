@@ -1,4 +1,4 @@
-# 🚲 Cyclistic Bike Share: User Behavior & Fleet Transit Analytics
+# Bike Share: User Behavior & Fleet Transit Analytics
 
 [![Platform: Snowflake](https://img.shields.io/badge/Data%20Warehouse-Snowflake-29B5E8?logo=snowflake&logoColor=white)](https://www.snowflake.com/)
 [![Language: Snowflake SQL](https://img.shields.io/badge/Query%20Engine-Snowflake%20SQL-00758F?logo=sql&logoColor=white)]()
