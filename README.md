@@ -24,7 +24,7 @@ By unifying Python data processing within **Snowflake Notebooks** and executing 
 
 ---
 
-## 💼 Problem, Solution & Impact (Resume Highlight)
+## 💼 Problem, Solution & Impact
 
 * **Problem:** Over 2.5M raw monthly bike trip records were unorganized with over 21% missing station attributes and extreme duration outliers, making it hard to separate high-frequency daily commuter routes from leisure loops or pinpoint fleet shortages.
 * **Solution:** Engineered an end-to-end data pipeline across Python and Snowflake SQL to filter down to 2.44M clean records (retaining 97.45% of valid data), standardizing schema types, engineering duration categories, tagging commute windows, and applying spatial coordinate filters. Developed 14 business-focused SQL queries utilizing window functions (`DENSE_RANK`, `LAG`, rolling averages) to isolate station imbalances, demand velocity, and user transit patterns.
@@ -40,7 +40,7 @@ By unifying Python data processing within **Snowflake Notebooks** and executing 
 * **Duration Filtering:** Removed corrupted records with trip durations under 1 minute or exceeding 24 hours.
 * **Station Imputation:** Flagged dockless bike terminations as `'On-Street / Dockless Lock'` to prevent data loss while preserving route geometry.
 
-### 2. Final Data Dictionary (`clean_month_data`)
+### 2. Final Data Dictionary
 
 | Column Name | Data Type | Description |
 | :--- | :--- | :--- |
