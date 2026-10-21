@@ -11,7 +11,7 @@
 
 This project implements an end-to-end data engineering and analytical pipeline targeting over **2.5 million raw Divvy/Cyclistic bike-share trips** in Greater Chicago. 
 
-By unifying Python data processing within **Snowflake Notebooks** and executing warehouse-native **Snowflake SQL**, this analysis cleans unorganized trip logs, engineers temporal and spatial features, and answers 14 high-impact business questions. The study isolates behavioral dynamics between annual subscribers (`member`) and pay-per-ride users (`casual`), uncovering critical fleet deficits, transit corridor bottlenecks, and membership conversion opportunities.
+By unifying Python data processing within **Snowflake Notebooks** and executing warehouse-native **Snowflake SQL**, this analysis cleans unorganized trip logs, engineers temporal and spatial features, and answers 14 high-impact business metrics. The study isolates behavioral dynamics between annual subscribers (`member`) and pay-per-ride users (`casual`), uncovering critical fleet deficits, transit corridor bottlenecks, and membership conversion opportunities.
 
 ```
                               DATA PIPELINE ARCHITECTURE
